@@ -66,7 +66,7 @@ def cleanText(text):
     return text
 
 
-# function wich implements the textblob library wich analysis the given text
+# function wich implements the textblob library which analysis the given text
 def get_polarity(text):
     polarity = TextBlob(text).sentiment.polarity
     return polarity
